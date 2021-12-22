@@ -1,0 +1,245 @@
+﻿<Window x:Class="WpfApp15_1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:WpfApp15_1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <FlowDocumentScrollViewer>
+            <FlowDocument>
+                <Paragraph>
+                    <Floater Width="250" HorizontalAlignment="Right">
+                        <BlockUIContainer>
+                            <Image Source="Data/osn.jpg"/>
+                        </BlockUIContainer>
+                    </Floater>
+                    Торт Наполеон
+                    <Hyperlink NavigateUri="https://www.gastronom.ru/recipe/15617/tort-napoleon-v-domashnih-uslovijah">в домашних условиях</Hyperlink>
+                </Paragraph>
+                <Paragraph>
+                    Торт Наполеон в домашних условиях готовят многие: едва ли не у каждой хозяйки, 
+                имеется свой особенный рецепт. Кстати, предложенный здесь был очень популярен лет так двадцать-тридцать назад. 
+                Вполне возможно, что именно по нему готовила ваша бабушка или мама!
+                </Paragraph>
+                <List MarkerStyle="Box">
+                    <ListItem>
+                        <Paragraph>
+                            ИНГРЕДИЕНТЫ
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            сахар – 0,5 стакана
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            мука – 4 ст. л.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            ванильный сахар – 1 ч. л.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            молоко – 2,5 стакана
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            яйцо – 1 шт.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            мука – 500 г
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            мука – 500 г
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            питьевая вода – 180 мл
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            уксус – 1 ст. л.
+                        </Paragraph>
+                    </ListItem>
+                    <ListItem>
+                        <Paragraph>
+                            сливочное масло – 250 г
+                        </Paragraph>
+                    </ListItem>
+                </List>
+                <Table>
+                    <Table.Columns>
+                        <TableColumn />
+                        <TableColumn />
+                        <TableColumn />
+                    </Table.Columns>
+                    <TableRowGroup>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    № Этапа
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Фото
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Описание
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 1
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="150" HorizontalAlignment="Left">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/1.jpg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Охлажденное сливочное масло для коржей торта Наполеон нарезать маленькими кусочками и перетереть с просеянной мукой так, чтобы смесь напоминала хлебные крошки. Смешать воду с уксусом, тонкой струйкой влить в мучную смесь. Вымесить гладкое тесто, завернуть его в пищевую пленку и поместить в холодильник на 40 мин.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 2
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="150" HorizontalAlignment="Left">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/2.jpg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Разделить тесто на 6 равных частей. Положить 1 кусок теста между 2 листами пергамента и раскатать в круг толщиной 0,5 см; так же раскатать остальное тесто. Выпекать коржи по отдельности в разогретой до 190°С духовке, по 20 мин. каждый. Дать остыть. Подровнять края, крошки сохранить.</Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 3
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="150" HorizontalAlignment="Left">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/3.jpg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Приготовить заварной крем для торта Наполеон. Вскипятить 1,5 стакана молока с сахаром. Взбить оставшееся молоко с яйцом и мукой миксером до получения массы однородной консистенции.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 4
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="150" HorizontalAlignment="Left">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/4.jpg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Осторожно ввести получившуюся яичную смесь в кипящее молоко. Уменьшить огонь до минимума и варить, непрерывно помешивая, 7–8 мин., до загустения крема. Снять с огня и дать полностью остыть.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 5
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="150" HorizontalAlignment="Left">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/5.jpg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Собрать торт Наполеон. Для этого смазать остывшие коржи получившимся заварным кремом и сложить друг на друга. Слегка прижать. Поставить торт Наполеон в холодильник на 8-12 ч.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                        <TableRow>
+                            <TableCell>
+                                <Paragraph>
+                                    Шаг 5
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    <Floater Width="150" HorizontalAlignment="Left">
+                                        <BlockUIContainer>
+                                            <Image Source="Data/6.jpg"/>
+                                        </BlockUIContainer>
+                                    </Floater>
+                                </Paragraph>
+                            </TableCell>
+                            <TableCell>
+                                <Paragraph>
+                                    Перед подачей на стол торт Наполеон посыпать крошками, оставшимися от коржей. По желанию, десерт можно украсить свежими ягодами, шоколадными фигурками или миндальными лепестками.
+                                </Paragraph>
+                            </TableCell>
+                        </TableRow>
+                    </TableRowGroup>
+                </Table>
+                <BlockUIContainer>
+                    <StackPanel>
+                        <TextBlock Text="Нажми, если понравился рецепт"/>
+                        <Button Content="Нравится!"/>
+                    </StackPanel>
+                </BlockUIContainer>
+            </FlowDocument>
+
+        </FlowDocumentScrollViewer>
+
+    </Grid>
+</Window>
